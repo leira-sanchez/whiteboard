@@ -1,3 +1,22 @@
+// const data = {
+//   cards: [
+//     {
+//       id: "Card1",
+//       title: "Blue",
+//       description: "Gato",
+//       label: "Nail trim",
+//       lane: 1
+//     },
+//     {
+//       id: "Card2",
+//       title: "Lola",
+//       description: "Dog - Maltese",
+//       label: "5 mins",
+//       metadata: { sha: "be312a1" },
+//       lane: 1
+//     }
+//   ]
+// };
 const data = {
     lanes: [
       {
@@ -9,14 +28,16 @@ const data = {
             id: "Card1",
             title: "Blue",
             description: "Gato",
-            label: "Nail trim"
+            label: "Nail trim",
+            lane: 1
           },
           {
             id: "Card2",
             title: "Lola",
             description: "Dog - Maltese",
             label: "5 mins",
-            metadata: { sha: "be312a1" }
+            metadata: { sha: "be312a1" },
+            lane: 1
           }
         ]
       },
@@ -63,4 +84,3 @@ const data = {
     ]
   };
   export default data;
-  
